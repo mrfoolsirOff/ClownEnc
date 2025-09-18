@@ -25,10 +25,10 @@ class Config:
                 "ALWAYS_DEPLOY_LATEST", default=False, cast=bool
             )
             self.ALLOW_ACTION = config("ALLOW_ACTION", default=True, cast=bool)
-            self.APP_ID = config("APP_ID", "23714276")
-            self.API_HASH = config("API_HASH", "28210c5cf5198e65fd52be3aa264e88a")
+            self.APP_ID = config("APP_ID",)
+            self.API_HASH = config("API_HASH", )
             self.ARIA2_PORT = config("ARIA2_PORT", default=6800, cast=int)
-            self.BOT_TOKEN = config("BOT_TOKEN", "8352674567:AAGorraMLS1FdclBTaxqdWc22liH66zsLTM")
+            self.BOT_TOKEN = config("BOT_TOKEN", ")
             self.CACHE_DL = config("CACHE_DL", default=False, cast=bool)
             self.CAP_DECO = config("CAP_DECO", default="◉")
             self.C_LINK = config("C_LINK", default="@ANi_MiNE")
